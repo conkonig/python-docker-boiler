@@ -1,0 +1,1 @@
+docker run --mount type=bind,source="$(pwd)"/app,target=/usr/src/app --rm -it -p 8000:8000 hello-world
